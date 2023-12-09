@@ -70,10 +70,6 @@ function filtrarProductos() {
     mostrarProductos(productosFiltrados);
 }
 
-
-
-
-
 function mostrarProductos(productosMostrar) {
     var contenedorProductos = document.getElementById('productos');
 
@@ -97,8 +93,8 @@ function mostrarProductos(productosMostrar) {
         personalizarBtn.textContent = 'Personalizar';
         personalizarBtn.addEventListener('click', function () {
             // Al hacer clic en el botón, abrir enlace de WhatsApp
-            var mensaje = encodeURIComponent('¡Hola! Estoy interesado en personalizar el producto: ' + producto.nombre);
-            var whatsappLink = 'https://wa.me/3584178955?text=' + mensaje; // Reemplaza 123456789 con el número de WhatsApp real
+            var mensaje = encodeURIComponent('¡Hola! Estoy interesado/a en personalizar el producto: ' + producto.nombre);
+            var whatsappLink = 'https://wa.me/3585063253?text=' + mensaje; // Reemplaza 123456789 con el número de WhatsApp real
             window.open(whatsappLink, '_blank');
         });
 
@@ -110,7 +106,6 @@ function mostrarProductos(productosMostrar) {
         contenedorProductos.appendChild(productoDiv);
     });
 }
-
 function mostrarSeccion(idSeccion) {
     var secciones = document.getElementsByClassName('seccion');
 
