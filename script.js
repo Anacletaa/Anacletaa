@@ -93,8 +93,9 @@ function mostrarProductos(productosMostrar) {
         personalizarBtn.textContent = 'Personalizar';
         personalizarBtn.addEventListener('click', function () {
             // Al hacer clic en el botón, abrir enlace de WhatsApp
-            var mensaje = encodeURIComponent('¡Hola! Estoy interesado/a en personalizar el producto: ' + producto.nombre);
-            var whatsappLink = 'https://wa.me/543585063253?text=' + mensaje; // Reemplaza 123456789 con el número de WhatsApp real
+                var mensaje = encodeURIComponent('¡Hola! Estoy interesado/a en personalizar el producto: ' + producto.nombre);
+                var whatsappLink = 'https://wa.me/543584178955?text=' + mensaje;
+
             window.open(whatsappLink, '_blank');
         });
 
