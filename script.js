@@ -7,9 +7,49 @@ const productos = [
     { nombre: 'Remera Sublimada 1', categoria: 'remeras', precio: '$20.00', imagen: 'remera1.jpg' },
     { nombre: 'Remera Sublimada 1', categoria: 'remeras', precio: '$20.00', imagen: 'remera1.jpg' },
     { nombre: 'Remera Sublimada 2', categoria: 'remeras', precio: '$25.00', imagen: 'remera2.jpg' },
+
+
+
+
+
     { nombre: 'Buzo Sublimado 1', categoria: 'buzos', precio: '$35.00', imagen: 'buzo1.jpg' },
+    { nombre: 'Buzo Sublimado 1', categoria: 'buzos', precio: '$35.00', imagen: 'buzo1.jpg' },
+    { nombre: 'Buzo Sublimado 1', categoria: 'buzos', precio: '$35.00', imagen: 'buzo1.jpg' },
+    { nombre: 'Buzo Sublimado 1', categoria: 'buzos', precio: '$35.00', imagen: 'buzo1.jpg' },
+    { nombre: 'Buzo Sublimado 1', categoria: 'buzos', precio: '$35.00', imagen: 'buzo1.jpg' },
+    { nombre: 'Buzo Sublimado 1', categoria: 'buzos', precio: '$35.00', imagen: 'buzo1.jpg' },
+    { nombre: 'Buzo Sublimado 1', categoria: 'buzos', precio: '$35.00', imagen: 'buzo1.jpg' },
+
+
+
+
+
     { nombre: 'Gorra Sublimada 1', categoria: 'gorras', precio: '$15.00', imagen: 'gorra1.jpg' },
+    { nombre: 'Gorra Sublimada 1', categoria: 'gorras', precio: '$15.00', imagen: 'gorra1.jpg' },
+    { nombre: 'Gorra Sublimada 1', categoria: 'gorras', precio: '$15.00', imagen: 'gorra1.jpg' },
+    { nombre: 'Gorra Sublimada 1', categoria: 'gorras', precio: '$15.00', imagen: 'gorra1.jpg' },
+    { nombre: 'Gorra Sublimada 1', categoria: 'gorras', precio: '$15.00', imagen: 'gorra1.jpg' },
+    { nombre: 'Gorra Sublimada 1', categoria: 'gorras', precio: '$15.00', imagen: 'gorra1.jpg' },
+    { nombre: 'Gorra Sublimada 1', categoria: 'gorras', precio: '$15.00', imagen: 'gorra1.jpg' },
+    { nombre: 'Gorra Sublimada 1', categoria: 'gorras', precio: '$15.00', imagen: 'gorra1.jpg' },
+
+
+
+
     { nombre: 'Taza Sublimada 1', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
+    { nombre: 'Taza Sublimada 1', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
+    { nombre: 'Taza Sublimada 1', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
+    { nombre: 'Taza Sublimada 1', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
+    { nombre: 'Taza Sublimada 1', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
+    { nombre: 'Taza Sublimada 1', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
+
+
+    { nombre: 'Bola Navideña1', categoria: 'bolas', precio: '$10.00', imagen: 'taza1.jpg' },
+    { nombre: 'Bola Navideña1', categoria: 'bolas', precio: '$10.00', imagen: 'taza1.jpg' },
+    { nombre: 'Bola Navideña1', categoria: 'bolas', precio: '$10.00', imagen: 'taza1.jpg' },
+    { nombre: 'Bola Navideña1', categoria: 'bolas', precio: '$10.00', imagen: 'taza1.jpg' },
+    { nombre: 'Bola Navideña1', categoria: 'bolas', precio: '$10.00', imagen: 'taza1.jpg' },
+    { nombre: 'Bola Navideña1', categoria: 'bolas', precio: '$10.00', imagen: 'taza1.jpg' },
     // Agrega más productos según sea necesario
 ];
 

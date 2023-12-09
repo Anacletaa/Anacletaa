@@ -180,7 +180,7 @@ footer {
 /* Estilos para la imagen derecha */
 .imagen-destacada.derecha {
     position: relative;
-    max-width: 600px; /* Ajusta el ancho máximo según tus preferencias */
+    max-width: 580px; /* Ajusta el ancho máximo según tus preferencias */
     margin: 20px 0 0 20px; /* Ajusta los márgenes */
     border-radius: 15px; /* Añade esquinas redondeadas */
     overflow: hidden;
@@ -225,6 +225,9 @@ footer {
     }
 }
 
+
+
 body {
     font-family: 'Poppins', sans-serif;
 }
+
