@@ -94,7 +94,8 @@ function mostrarProductos(productosMostrar) {
         personalizarBtn.addEventListener('click', function () {
             // Al hacer clic en el botón, abrir enlace de WhatsApp
                 var mensaje = encodeURIComponent('¡Hola! Estoy interesado/a en personalizar el producto: ' + producto.nombre);
-                var whatsappLink = 'https://wa.me/543584178955?text=' + mensaje;
+                var whatsappLink = 'https://wa.me/543585063253?text=' + mensaje;
+
 
             window.open(whatsappLink, '_blank');
         });
