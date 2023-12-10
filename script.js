@@ -36,12 +36,19 @@ const productos = [
 
 
 
-    { nombre: 'Taza Sublimada 1', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
-    { nombre: 'Taza Sublimada 1', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
-    { nombre: 'Taza Sublimada 1', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
-    { nombre: 'Taza Sublimada 1', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
-    { nombre: 'Taza Sublimada 1', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
-    { nombre: 'Taza Sublimada 1', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
+    { nombre: 'Taza Mario Bros', categoria: 'tazas', precio: '$10.00', imagen: 'tazaMario.jpg' },
+    { nombre: 'Taza Compartida', categoria: 'tazas', precio: '$10.00', imagen: 'tazaBob.jpg' },
+    { nombre: 'Taza Astronauta', categoria: 'tazas', precio: '$10.00', imagen: 'tazaAstronauta.jpg' },
+    { nombre: 'Taza Skate', categoria: 'tazas', precio: '$10.00', imagen: 'tazaSkate.jpg' },
+    { nombre: 'Taza Mario Bros', categoria: 'tazas', precio: '$10.00', imagen: 'tazaMario2.jpg' },
+    { nombre: 'Taza Dragon Ball', categoria: 'tazas', precio: '$10.00', imagen: 'tazaGoku.jpg' },
+    { nombre: 'Taza Dragon ball', categoria: 'tazas', precio: '$10.00', imagen: 'tazaGuku2.jpg' },
+    { nombre: 'Taza Star Wars', categoria: 'tazas', precio: '$10.00', imagen: 'tazaWars2.jpg' },
+    { nombre: 'Taza Star Wars', categoria: 'tazas', precio: '$10.00', imagen: 'tazaWars.jpg' },
+    { nombre: 'Taza Animalitos', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
+    { nombre: 'Taza Nasa', categoria: 'tazas', precio: '$10.00', imagen: 'tazaNasa.jpg' },
+    { nombre: 'Taza Rick and Morty', categoria: 'tazas', precio: '$10.00', imagen: 'tazaRick.jpg' },
+    
 
 
     { nombre: 'Bola Navideña1', categoria: 'bolas', precio: '$10.00', imagen: 'taza1.jpg' },
@@ -93,10 +100,8 @@ function mostrarProductos(productosMostrar) {
         personalizarBtn.textContent = 'Personalizar';
         personalizarBtn.addEventListener('click', function () {
             // Al hacer clic en el botón, abrir enlace de WhatsApp
-                var mensaje = encodeURIComponent('¡Hola! Estoy interesado/a en personalizar el producto: ' + producto.nombre);
-                var whatsappLink = 'https://wa.me/543585063253?text=' + mensaje;
-
-
+            var mensaje = encodeURIComponent('¡Hola! Estoy interesado/a en personalizar el producto: ' + producto.nombre);
+            var whatsappLink = 'https://wa.me/3585063253?text=' + mensaje; // Reemplaza 123456789 con el número de WhatsApp real
             window.open(whatsappLink, '_blank');
         });
 
@@ -108,6 +113,7 @@ function mostrarProductos(productosMostrar) {
         contenedorProductos.appendChild(productoDiv);
     });
 }
+
 function mostrarSeccion(idSeccion) {
     var secciones = document.getElementsByClassName('seccion');
 

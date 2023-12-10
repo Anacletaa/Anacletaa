@@ -6,9 +6,11 @@ body {
     background-color: #fffbf4;
     color: #333;
 }
+
 body, header {
     overflow-x: hidden;
 }
+
 header {
     max-width: 100%;
     background-color: #00684e;
@@ -17,9 +19,11 @@ header {
     position: relative;
     max-width: 100%;
 }
+
 img{
     max-width: 100%;
 }
+
 /* Estilos para el contenedor del logo */
 .logo-container {
     max-width: 100%;
@@ -28,6 +32,7 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 /* Estilos para la imagen del logo */
 .logo {
     max-width: 100%;
@@ -35,17 +40,23 @@ img{
     height: 120px; /* Ajusta la altura según tus necesidades */
     border-radius: 10%; /* Hace que la imagen sea redonda */
 }
+
+
+
 nav ul {
     display: flex;
     max-width: 100%;
     list-style: none;
     padding: 0;
 }
+
 nav ul li {
     max-width: 100%;
     display: inline;
     margin-right: 20px;
 }
+
+
 label {
     max-width: 100%;
     padding: 10px;
@@ -59,28 +70,36 @@ label {
     transition: border-color 0.3s, background-color 0.3s;
 
 }
+
+
 label:hover,
 label:focus {
     border-color: #00684e;
     background-color: #f9f9f9;
 }
+
+
 a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
 }
+
 a:hover {
     color: #333; /* Cambia el color al pasar el ratón sobre los enlaces */
 }
+
 section {
     max-width: 100%;
     margin: 40px;
 }
+
 .productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .producto {
     justify-content: space-between; /* Otra propiedad que se ajuste a tu diseño */
     max-width: 100%;
@@ -93,13 +112,17 @@ section {
     transition: box-shadow 0.3s;
     text-align: center; /* Añadido para centrar el contenido */
 }
+
 .producto img {
+
     max-width: 100%; /* Hace que la imagen se ajuste al 100% del ancho del contenedor */
     height: auto; /* Mantiene la proporción de aspecto original de la imagen */
 }
+
 .producto:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 footer {
     background-color: #00684e;
     color: #fff;
@@ -110,14 +133,18 @@ footer {
     width: 100%;
     font-size: 14px; /* Tamaño de fuente reducido */
 }
+
 .producto {
     width: calc(50% - 20px); /* Dos productos por fila en pantallas más pequeñas */
 }
+
 @media screen and (min-width: 768px) {
     .producto {
         width: calc(25% - 20px); /* Cuatro productos por fila en pantallas más grandes */
     }
 }
+
+
 .producto button {
     max-width: 100%;
     background-color: #00684e;
@@ -129,9 +156,11 @@ footer {
     font-size: 16px;
     transition: background-color 0.3s;
 }
+
 .producto button:hover {
     background-color: #00684e;
 }
+
 /* Estilos para la imagen principal izquierda */
 .imagen-destacada.izquierda {
     position: relative;
@@ -141,11 +170,13 @@ footer {
     overflow: hidden;
     float: left; /* Hace que el elemento flote a la izquierda */
 }
+
 .imagen-destacada.izquierda img {
     width: 100%;
     height: auto;
     border-radius: 15px; /* Añade esquinas redondeadas */
 }
+
 /* Estilos para la imagen derecha */
 .imagen-destacada.derecha {
     position: relative;
@@ -156,12 +187,14 @@ footer {
     float: right; /* Hace que el elemento flote a la derecha */
      vertical-align: top; /* Ajusta la alineación vertical */
 }
+
 .imagen-destacada.derecha img {
     max-width: 100%;
     width: 100%;
     height: auto;
     border-radius: 15px; /* Añade esquinas redondeadas */
 }
+
 /* Estilos para el texto descriptivo */
 .texto-descriptivo {
     max-width: 100%;
@@ -172,6 +205,9 @@ footer {
     background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
     border-radius: 0 0 15px 0; /* Esquina inferior izquierda redondeada */
 }
+
+
+
 /* Fuente de Google Fonts: Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
@@ -182,11 +218,16 @@ footer {
         margin-bottom: 20px; /* Ajusta el margen inferior según tus necesidades */
     }
 }
+
 @media screen and (max-width: 768px) {
     .logo {
         display: none; /* Oculta el logo en pantallas más pequeñas */
     }
 }
+
+
+
 body {
     font-family: 'Poppins', sans-serif;
 }
+
