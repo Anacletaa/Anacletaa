@@ -44,7 +44,7 @@ const productos = [
     { nombre: 'Taza Dragon Ball', categoria: 'tazas', precio: '$10.00', imagen: 'tazaGoku.jpg' },
     { nombre: 'Taza Dragon ball', categoria: 'tazas', precio: '$10.00', imagen: 'tazaGuku2.jpg' },
     { nombre: 'Taza Star Wars', categoria: 'tazas', precio: '$10.00', imagen: 'tazaWars2.jpg' },
-    { nombre: 'Taza Star Wars', categoria: 'tazas', precio: '$10.00', imagen: 'tasaStar.jpg' },
+    { nombre: 'Taza Star Wars', categoria: 'tazas', precio: '$10.00', imagen: 'tazaStar.jpg' },
     { nombre: 'Taza Animalitos', categoria: 'tazas', precio: '$10.00', imagen: 'taza1.jpg' },
     { nombre: 'Taza Nasa', categoria: 'tazas', precio: '$10.00', imagen: 'tazaNasa.jpg' },
     { nombre: 'Taza Rick and Morty', categoria: 'tazas', precio: '$10.00', imagen: 'tazaRick.jpg' },
